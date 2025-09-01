@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #444;
+}
+
+section {
+  border-bottom: 2px solid #333;
+}
+
+.cabecalho {
+  color: yellow;
+  margin: 0px 0px 20px 0px;
+  font-family: cursive;
+  font-size: 19px;
+}
+
+.tela {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222;
+  height: 100px;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+  color: white;       /* herda a cor do texto normal */
+  text-decoration: none; /* remove o sublinhado */
+}
+
+.valores {
+  font-family: "Poppins";
+  color: white;
+  margin: 20px;
+  
+}
+
+.valorcabelo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.valorbarba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.agende {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  background-color: #222;
+  border-radius: 10px;
+  border: 5px solid;
+  height: 50px;
+  width: 190px;
+  margin: 0px 0px 0px 80px;
+  cursor: pointer;
+}
+
+.botao {
+  color: white;
+  margin: 15px;
+  font-size: 18px;
+}
